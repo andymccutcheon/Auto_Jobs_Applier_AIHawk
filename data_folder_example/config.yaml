@@ -2,20 +2,20 @@ remote: true
 
 experienceLevel:
   internship: false
-  entry: true
-  associate: true
+  entry: false
+  associate: false
   mid-senior level: true
-  director: false
-  executive: false
+  director: true
+  executive: true
 
 jobTypes:
   full-time: true
   contract: false
   part-time: false
-  temporary: true
+  temporary: false
   internship: false
   other: false
-  volunteer: true
+  volunteer: false
 
 date:
   all time: false
@@ -27,11 +27,11 @@ positions:
   - Software engineer
 
 locations:
-  - Germany
+  - United States
 
 apply_once_at_company: true
 
-distance: 100
+#distance: 100
 
 company_blacklist:
   - wayfair
