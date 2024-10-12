@@ -24,7 +24,12 @@ date:
   24 hours: true
 
 positions:
-  - Software engineer
+  - Director of Lifecycle Marketing
+  - Head of Retention
+  - Senior Lifecycle Marketing Manager
+  - VP of Customer Retention
+  - Product Marketing Manager
+  - Product Marketing Lead
 
 locations:
   - United States
@@ -34,16 +39,16 @@ apply_once_at_company: true
 #distance: 100
 
 company_blacklist:
-  - wayfair
-  - Crossover
+  #- wayfair
+  #- Crossover
 
 title_blacklist:
-  - word1
-  - word2
+  #- word1
+ # - word2
 
 job_applicants_threshold:
   min_applicants: 0
-  max_applicants: 30
+  max_applicants: 100
 
 llm_model_type: openai
 llm_model: 'gpt-4o-mini'
